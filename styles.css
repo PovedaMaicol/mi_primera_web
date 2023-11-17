@@ -1,0 +1,406 @@
+
+body {
+    background-color: #DDF2FD;
+    margin: 0;
+    padding: 0;
+}
+
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 1.1em;
+    font-family: 'Lobster', sans-serif;
+}
+li{
+    color: rgba(240, 248, 255, 0.982);
+}
+img{
+    width: 20px;
+    height: 20px;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #164863;
+    align-items: center;
+
+}
+header i {
+    color: antiquewhite;
+    margin-left: 2.5%;
+}
+header nav {
+    margin-right: 2.5%;
+}
+
+.estilo1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5em;
+    width: 50%;
+    margin-left: 20%;
+}
+.estilo1 p {
+    color: #000000;
+    font-size: 15px;
+    
+}
+.parrafo1, .parrafo2{
+  
+    text-align: end;
+    font-size:x-small;
+    font-family: 'Roboto', sans-serif;  
+
+}
+.estilo1 .acerca-de {
+    margin-right: 5%;
+    height: 200px;
+    width: 65%;
+   
+}
+.estilo1 h2{
+    font-family: 'Lobster', sans-serif;
+    text-align: end;
+}
+.acerca-imagen {
+    background-color: black;
+    width: 30%;
+}
+.acerca-imagen img{
+    width:100%;
+    height: 39vh;
+    display: flex;
+    float: right;
+}
+.estilo2{
+background-image: url(./img/background1.jpg);
+background-size: 100%;
+display: block;
+background-repeat: no-repeat;
+height:230px;
+    
+
+}
+footer{
+    
+    width: 100%;
+    background-color: #0b2431;
+}
+footer nav ul li a {
+    text-decoration: none;
+}
+footer a{
+    text-decoration: none;
+}
+.redes{
+   
+    margin-left: 10px;
+    width: 15%;
+    display: inline-block;
+    padding-bottom: 1em;
+    margin-left: 2.5%;
+    
+    
+}
+.redes h3{
+    font-family: 'Roboto', sans-serif; 
+    font-size:smaller;
+    color: white;
+    
+}
+.redes i{
+font-size: xx-large;
+margin-right: 1em;
+
+color: white;
+
+}
+
+.estilo3 {
+    width: 100%;
+    height: 350px;
+
+    display: flex;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+.tarjeta, .tarjeta1, .tarjeta2{
+    background-color: aliceblue;
+    width: 20%;
+    margin-left: 10%;
+    border-radius: 2vh;
+    font-family: 'Roboto', sans-serif; 
+}
+.tarjeta h3, .tarjeta1 h3, .tarjeta2 h3{
+    font-weight: bolder;
+}
+.tarjeta p, .tarjeta1 p, .tarjeta2 p{
+    font-weight: lighter;
+    font-size:small;
+}
+.tarjeta h5, .tarjeta1 h5, .tarjeta2 h5{
+    font-size: x-small;
+}
+.img{
+    width: 100%;
+    height: 50%;
+    background-image: url(./img/background.jpg);
+    background-size:100%;
+    border-radius: 2vh 2vh 0px 0px;
+    background-repeat: no-repeat;
+}
+.estilo3 h3 {
+    color: #363062;
+    margin-left: 5px;
+    
+}
+.estilo3 p, .estilo3 h5 {
+    margin-left: 5px;
+}
+#check {
+    display: none;
+}
+.checkbtn{
+    display: none;
+}
+.estilo4{
+    width: 100%;
+    height: 60vh;
+    margin-bottom: 4em;
+
+}
+.estilo4 form{
+  
+    width: 80%;
+    height: 90%;
+    background-color: #164863;
+    border-radius: 1.5vh;
+    margin-left: 10%;
+    padding-top: 4em;
+   
+
+}
+.estilo4 h2{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-bottom: 1em;
+    font-family: 'Roboto', sans-serif; 
+    font-weight:bolder;
+}
+.estilo4 form .form-row{
+    width: 60%;
+    margin-left: 20%;
+    height: 5vh;
+    margin-bottom: 40px;
+    justify-content:start;
+    display: flex;
+    border-radius: 1vh;
+}
+.form-row label{
+    
+    width: 14%;
+    height: 5vh;
+    padding-left: 0.8em;
+    font-family: 'Roboto', sans-serif;  
+    font-weight:lighter;
+    font-style:initial;
+    display: flex;
+    align-items:center;
+    font-size:medium;
+    border-radius: 1vh 0vh 0vh 1vh;
+    background-color: #9bbec883;
+    color: white;
+   
+}
+.form-row input, .form-row textarea{
+    width: 86%;
+    border: none;
+    
+    border-radius: 0vh 1vh 1vh 0vh;
+    background-color: #eae8f4f9;
+    
+  
+}
+.estilo4 .form-row button{
+    width: 33.3%;
+    margin-left: 33.3%;
+    border-radius: 1vh;
+    background-color: #9bbec883;
+    color: white;
+    font-family: 'Roboto', sans-serif;  
+    font-size:medium;
+}
+
+@media (max-width: 768px) {
+  
+    header{
+        background-color: #000000;
+    }
+  
+    li {
+        font-size: 12px;
+        display: none;
+        color: #000000;
+    }
+    .estilo1{
+       display:inline-block;
+        height: 95vh;
+        align-items: center;
+        margin-left: 12.5%;
+
+        padding: 0;
+        width: 70%;
+        margin-left: 15%;
+    
+    }
+    .estilo1 h2{
+    text-align: center;
+    }
+   
+    
+    .estilo1 .acerca-de{
+        
+        width: 100%;
+        margin-top: 2.5em;
+        font-size: large;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .estilo1 .acerca-imagen{
+        margin-top: 2em;
+        width: 45%;
+        height: 20vh;
+        margin-left: 27.5%;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    
+    .parrafo1, .parrafo2{
+        text-align: center;
+    }
+    
+    .estilo2{
+      
+       width: 100%;
+      height: 200px;
+       margin-bottom: 0;
+       padding-bottom: 0;
+       background-size: 100%;
+      
+    }
+    .estilo3{
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        padding-top: 40px;
+    }
+    .estilo3 .img{
+        height: 150px;
+    }
+    .estilo3 h5 {
+        padding-bottom: 10px;
+    }
+    .estilo3 p, .estilo3 h3, .estilo3 h5{
+        margin-left: 10px;
+    }
+    .tarjeta, .tarjeta1, .tarjeta2{
+        width:85%;
+        align-content: center;
+        margin-left:7.5%;
+        font-family: 'Roboto', sans-serif;  
+      
+    }
+    .redes{
+        width: 33.3%;
+        margin-right: 33.3%;
+        margin-left: 33.3%;
+        text-align: center;
+      
+    }
+    .redes h3{
+       
+        font-size:smaller;
+        text-align: center;
+        width: 100%;
+        
+       
+    }
+    .redes i{
+        font-size: xx-large;
+        margin-right: 0;
+        justify-content: space-around;
+        display: inline-block;
+        color: white;
+        margin-left: 0.2em;
+        margin-right: 0.2em;
+      
+        
+        }
+    #check {
+        display: none;
+       
+    }
+    .checkbtn{
+        display: block;
+        font-size: 25px;
+        color: white;
+        float: right;
+        line-height: 80px;
+        margin-right:7.5%;
+        cursor: pointer;
+        align-items: center;
+        align-content: center;
+       
+    }
+    .navegacion ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #ffffff;
+        text-align: center;
+
+        top: 60px;
+        left: 100%;
+        transition: all 0.5s;
+    }
+    #check:checked ~ ul {
+        left: 0;
+        display: block;
+    }
+    .navegacion ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+      
+    }
+    .navegacion ul li{
+        font-size: 20px;
+        font-size: large;
+    }
+    .form-row label{
+        width: 27%;
+        font-size: small;
+        font-weight:500;
+
+    }
+    .form-row input, .form-row textarea {
+        width: 73%;
+    }
+    .estilo4 h2 {
+        font-size:larger;
+        }
+    .estilo4 form .form-row{
+        margin-bottom: 30px;
+    }
+    .estilo4 .form-row button{
+        font-size:x-small;
+
+    };
+   
+}
